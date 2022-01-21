@@ -1,8 +1,8 @@
-# POO
+# POO (Orogrammation orientée objet)
 
 class Personne:
     def __init__(self, nom: str, age: int, genre: bool):
-        self.nom = nom   # 
+        self.nom = nom   
         self.age = age
         self.genre = genre
         print("Constructeur personne " + self.nom)
